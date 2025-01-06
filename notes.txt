@@ -1,0 +1,84 @@
+variables:
+**********
+-variables are used to store the data/ values /literals.
+
+types of variables:
+*******************
+1.var:- re-initialization is possible
+        re-declaration is possibe
+2.let:- re-intitialization is possible
+        re-decalration is not possible
+3.const:- re-intitialization is not possible
+        re-decalration is not  possible
+
+ex:-   var username ="Bhavana";
+    console.log(username);
+
+here variable=var,
+    identifier=username,
+    value/data=Bhavana
+
+    -extension of javascript file must be .js.
+    In the browser if we want to run javascript file or css file we must connect those files with html file.
+    html file is first file loaded in the browser
+    DOCTYPE-
+    http://127.0.0.1:5500/index.html here 5500 port number -device location/address
+
+    console.log():- it is a method to print the output in the developer console.
+    document.writeln():- it is a method to print the output on the UI
+
+what is comments?
+comments are the ignored lined by the browser
+to give information to the developer
+
+two types of comments in js:
+****************************
+html:- <!--comment-->
+css:- /* yujk*/
+js:-
+1.single line comment-(//)
+2.multi line comment-(/**/)
+
+what is data types?
+-datatypes used to specify what kind of data stored in the variable.
+
+types of datatypes:
+*******************
+1.primitive datatypes:- 
+-they are built-in
+-immutable
+-they can store only single values
+        -String,
+        -number,
+        -boolean,
+        -undefined,
+        -null
+        -symbol
+        -bigint
+
+2.non-primitive datatypes:-
+- they are user defined
+- mutable
+- they can store multiple values.
+        -array
+        -functions
+        -objects
+        -math, date, json
+
+Strings:-
+*********
+-sequence of characters enclosed within "", '', ``(template literals/backtiks)
+
+number:-
+-   -2^53-1 to +2^53-1 upto this range we consider as number data type.
+-beyond this range it will be bigint.
+
+boolen:- true,false
+
+undefined:- variable is declared but not initialized  with the value
+
+null:- null is empty value/absence if an objects
+-return type of null is 'object'
+
+bigint:- any value exceed the range of number dattype we consider that as bigint.
+- any value sufix with "n" will be bigint.

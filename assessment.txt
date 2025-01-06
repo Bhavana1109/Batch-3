@@ -1,0 +1,117 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+What is a Data ?
+
+In JavaScript, a data type defines the kind of value a variable can hold. JavaScript is a dynamically typed language, meaning you don't need to declare the type of a variable; it is automatically determined at runtime.
+
+Types of Data Types in JavaScript
+
+JavaScript data types are broadly categorized into:
+
+ 1. **Primitive Data Types**
+These are the simplest, immutable (cannot be changed), and predefined data types in JavaScript.
+
+Primitive Data Types in JavaScript:
+- **Number:** Represents numeric values (both integers and floating-point numbers).
+  ```javascript
+  let age = 25;       // Integer
+  let pi = 3.14;      // Float
+  let infinity = Infinity;  // Special value for infinity
+  ```
+  
+- **String:** Represents textual data.
+  ```javascript
+  let name = "John";
+  let greeting = 'Hello';
+  ```
+
+- **Boolean:** Represents logical values: `true` or `false`.
+  ```javascript
+  let isActive = true;
+  let isLoggedIn = false;
+  ```
+
+- **Undefined:** A variable declared but not assigned any value.
+  ```javascript
+  let x;  // x is undefined
+  ```
+
+- **Null:** Represents an intentional absence of value.
+  ```javascript
+  let emptyValue = null;
+  ```
+
+- **Symbol:** A unique and immutable value primarily used for object property keys.
+  ```javascript
+  let symbol1 = Symbol('unique');
+  ```
+
+- **BigInt:** For large integers beyond the safe range of the `Number` type.
+  ```javascript
+  let bigNumber = 123456789012345678901234567890n;
+  ```
+2. **Non-Primitive (Reference) Data Types**
+These are more complex data types. They are mutable (their contents can be changed) and stored as references.
+
+**Non-Primitive Data Types in JavaScript:**
+- **Object:** A collection of key-value pairs.
+  ```javascript
+  let person = { name: "Alice", age: 30 };
+  ```
+
+- **Array:** An ordered list of values (elements can be of different types).
+  ```javascript
+  let numbers = [1, 2, 3, 4, 5];
+  let mixed = [1, "hello", true];
+  ```
+
+- **Function:** A block of reusable code.
+  ```javascript
+  function greet() {
+    console.log("Hello, world!");
+  }
+
+
+- **Date:** Represents date and time.
+  ```javascript
+  let today = new Date();
+
+Example Code in JavaScript
+
+```javascript
+// Primitive Data Types
+let age = 25;                  // Number
+let name = "John";             // String
+let isLoggedIn = true;         // Boolean
+let x;                         // Undefined
+let noValue = null;            // Null
+let symbol1 = Symbol('id');    // Symbol
+let bigNumber = 9007199254740991n; // BigInt
+
+console.log(typeof age);       // "number"
+console.log(typeof name);      // "string"
+console.log(typeof isLoggedIn);// "boolean"
+
+// Non-Primitive Data Types
+let person = { name: "Alice", age: 30 };  // Object
+let fruits = ["Apple", "Banana", "Cherry"]; // Array
+let greet = function () {                  // Function
+  console.log("Hello, World!");
+};
+
+console.log(typeof person);   // "object"
+console.log(typeof fruits);   // "object"
+console.log(typeof greet);    // "function"
+```
+
+### Differences Between Primitive and Non-Primitive Data Types in JavaScript
+
+| Feature                 | Primitive Data Types               | Non-Primitive Data Types          |
+|-------------------------|-------------------------------------|------------------------------------|
+| **Definition**          | Basic, immutable types.            | Complex, mutable types.           |
+| **Storage**             | Stored by value.                   | Stored by reference.              |
+| **Examples**            | `Number`, `String`, `Boolean`, `Symbol` | `Object`, `Array`, `Function`    |
+| **Mutability**          | Immutable (cannot change the value directly). | Mutable (contents can change).   |
+
+---
+
+Understanding JavaScript data types is fundamental for effective coding, as it helps with variable management and avoiding errors.
