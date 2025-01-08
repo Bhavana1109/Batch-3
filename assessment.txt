@@ -7,41 +7,41 @@ Types of Data Types in JavaScript
 
 JavaScript data types are broadly categorized into:
 
- 1. **Primitive Data Types**
+ 1.Primitive Data Types:
 These are the simplest, immutable (cannot be changed), and predefined data types in JavaScript.
 
 Primitive Data Types in JavaScript:
-- **Number:** Represents numeric values (both integers and floating-point numbers).
-  ```javascript
+Number: Represents numeric values (both integers and floating-point numbers).
+javascript
   let age = 25;       // Integer
   let pi = 3.14;      // Float
   let infinity = Infinity;  // Special value for infinity
-  ```
+
   
-- **String:** Represents textual data.
-  ```javascript
+- String: Represents textual data.
+ 
   let name = "John";
   let greeting = 'Hello';
-  ```
+  
 
-- **Boolean:** Represents logical values: `true` or `false`.
-  ```javascript
+- Boolean: Represents logical values: `true` or `false`.
+ 
   let isActive = true;
   let isLoggedIn = false;
-  ```
+  
 
-- **Undefined:** A variable declared but not assigned any value.
-  ```javascript
+- Undefined: A variable declared but not assigned any value.
+  
   let x;  // x is undefined
-  ```
 
-- **Null:** Represents an intentional absence of value.
-  ```javascript
+
+- Null: Represents an intentional absence of value.
+ 
   let emptyValue = null;
-  ```
+  
 
-- **Symbol:** A unique and immutable value primarily used for object property keys.
-  ```javascript
+- Symbol: A unique and immutable value primarily used for object property keys.
+  javascript
   let symbol1 = Symbol('unique');
   ```
 
