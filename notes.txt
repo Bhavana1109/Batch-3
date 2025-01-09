@@ -171,9 +171,28 @@ what are entry controlled and exit controlled loops?
 -entry controlled loops: -for loop,while loop
 -exit controlled loops:- -do while loop
 
--what is difference between break and continue?
-break:- 
-continue:- 
+-what is the difference between "break" and "continue" keywords.
+break - when condition satisfied it will terminate the loop
+permenently
+
+continue-when the condition satisfies it will skip that particular
+condition.
 
 functions:-
 ***********
+-function is a block of code used to execute specific task assigned to
+-function is a non-primitive data type
+-functions can be reusable
+
+syntax:-  function function_name(optional parameters){
+              function_name(arguments);
+
+Types of functionns:-
+**********************
+1.named functions;-
+2.Anonymus functions
+3.function expression
+4.Immediate invoke function expression(IIFE)
+5.Arrow function
+6.Higher order function
+7. Callback function
