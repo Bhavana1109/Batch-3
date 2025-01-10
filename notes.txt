@@ -215,6 +215,3 @@ ECMA - european computer manufacturing association
 
 first name of java is oak
 first name of javscript is livescript
-
-what is return keyword?
--return keyword is used to return 
