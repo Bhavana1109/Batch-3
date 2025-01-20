@@ -137,63 +137,97 @@
 //     console.log(user.name);
 // })
 
-/*let users=["Ramya","SaiSmitha","Sai Nikhil","Rahul","Prabhas","NTR"];
-/*let x=users.map((user)=>{
-    return user;
-});
-console.log(x);*/
+//let users = ["Ramya" , "SaiSmitha" , "Sai Nikhil" , "Rahul" , "Prabhas" , "NTR"];
+// let x = users.map((user)=>{
+//     // console.log(user);
+//     return user; //!["Ramya" , "SaiSmitha" , "Sai Nikhil" , "Rahul" , "Prabhas" , "NTR"];
+// });
+// console.log(x);
 
-/*let x=users.forEach((user)=>{
-    return user;
-});
-console.log(x); // undefined*/
+// let x = users.forEach((user)=>{
+//     // console.log(user);
+//     return user;
+// });
+// console.log(x); // !undefined
 
-/*let userDetails = {
-    name:"Bhavana",
-    age:20,
-    company:"Amazon",
-    sal: 123456789,
-    address:{
-        city:"Hyd",
-        area: {
-            areaName:"Hi-Tech",
-            pincode :123456
-        }
-    }
-    /*details:function(){
-        return `My name is ${this.name} and i am working in ${this.company}`
-    }*/
 
-    //};
-    //console.log(userDetails);
-    //console.log(userDetails.name);
-    //console.log(userDetails.details());
-    //console.log(userDetails.address.city);
-    //console.log(userDetails.address.area.areaName);
+//! create array of objects and print the values.
 
-/*let userDetails=[
-    {
-        name: "Bhavana",
-        city:"Mohammed Nagar"
-    },
-    {
-        name:"Dimple",
-        city:"Guntur"
-    }
-    
-];
-userDetails.map((user)=>{
-    console.log(user.name);*/
+// let userDetails = {
+//     name : "Pranav",
+//     age:22,
+//     company :"Amazon",
+//     sal : 1234567890,
+//     details:function(){
+//         return `My name is ${this.name} and i am working in ${this.company}`
+//     }
+// };
+// console.log(userDetails);
+// console.log(userDetails.name);
+// console.log(userDetails.details());
 
-let userDetails={
+//! create nested object and access the property of nested object
+
+// let userDetails = {
+//     name : "Pranav",
+//     age:22,
+//     company :"Amazon",
+//     sal : 1234567890,
+//     address:{
+//         city:"Hyd",
+//         area :{
+//             areaName:"Hitech",
+//             pincode :123456
+//         }
+//     }
+
+// }
+
+// console.log(userDetails.address.city);
+// console.log(userDetails.address.area.areaName);
+
+//! create array of objects and print the values.
+
+// let usersDetails = [
+//     {
+//         name:"Ramya",
+//         city:"Guntur"
+//     },
+//     {
+//         name:"Sai Nikhil",
+//         city:"Karimnagar"
+//     },
+//     {
+//         name:"Rahul",
+//         city:"Ananthpur"
+//     },
+//     {
+//         name:"Vaishali",
+//         city:"Nizambad"
+//     },
+//     {
+//         name:"Priya",
+//         city:"Kadapa"
+//     }
+// ];
+
+// usersDetails.map((x)=>{
+//     console.log(x.name);
+// })
+
+// console.log(usersDetails[3].name);
+
+//! JSON 
+
+let userDetails ={
     name:"Sam",
     age:25,
     city:"Hyd"
 };
 console.log(userDetails);
 
-let x=JSON.stringify(userDetails);
-console.log("JSON Object "+x);
+let x = JSON.stringify(userDetails);
+console.log("JSON object "+x);
 
-let y=JSON.parse(x);
+let  y = JSON.parse(x);
 console.log(y);

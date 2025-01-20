@@ -284,23 +284,44 @@ ex:- {
 
 extension for json file is ".json"
 
-Arrays:-
-********
-- It is non-primitive data type
-- It is a collection of elements / multiple values
+what is return keyword?
+-return keyword is used to return the expression,variables , values.
+- return statment is also used to terminate/stop the execution.
 
-map():- it is used to iterate values from the array.
-if we return the value, map() method returns new copied array.
 
-forEach():- it is used to 
+Arrays :-
+*********
+- it is non-primitive data type.
+- It is a collection of elements / multiple values.
+
+syntax :-   let arr = [];
+
+
+map() :- it is used to iterate values from the array.
+        - if we return the value , map() method returns new copied array.
+
+
+forEach() :- it is used to iterate the values from the array.
+           - it returns "undefined".
+
 
 what is object?
--Object is am entity which is having states(properties ) amd behaviours.
-- Object is used r=to store the data in the form key & value pairs.
- syntax:- let obj={};
+- Object is an entity which is having states(proeprties) and behviours.
+- Object is used to store the data in the form key & value pairs.
 
- JSON :- javaScript object notation.
+syntax :-   let obj = {};
 
- methids of json:-
- 1.JSON.stringfy():-it is used to convert javascript object into json object.
- 2.JSON.parse();- it is used to convert json object into javascript object.
+note:-  "this" - it is used to target current executing object.
+
+
+JSON :- Javascript object notation.
+- JSON is a lightweight technique of javascript used to transfer data/information from
+        client to server and vice-versa.
+        - except number it will store bot key and value pair inside the double quotes.
+
+- JSON is always in the form of "string".
+
+
+methods of json:-
+1.JSON.stringfy() :- it is used to convert Javascript object into JSON object.
+2.JSON.parse() :- it is used to convert JSON object into Javascript object.
