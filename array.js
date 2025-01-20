@@ -59,6 +59,7 @@
 // console.log(fullstack);
 
 // ! Objects
+//create array of objects and print the values.
 
 // let userDetails = {
 //     name:"Shravan",
@@ -136,3 +137,63 @@
 //     console.log(user.name);
 // })
 
+/*let users=["Ramya","SaiSmitha","Sai Nikhil","Rahul","Prabhas","NTR"];
+/*let x=users.map((user)=>{
+    return user;
+});
+console.log(x);*/
+
+/*let x=users.forEach((user)=>{
+    return user;
+});
+console.log(x); // undefined*/
+
+/*let userDetails = {
+    name:"Bhavana",
+    age:20,
+    company:"Amazon",
+    sal: 123456789,
+    address:{
+        city:"Hyd",
+        area: {
+            areaName:"Hi-Tech",
+            pincode :123456
+        }
+    }
+    /*details:function(){
+        return `My name is ${this.name} and i am working in ${this.company}`
+    }*/
+
+    //};
+    //console.log(userDetails);
+    //console.log(userDetails.name);
+    //console.log(userDetails.details());
+    //console.log(userDetails.address.city);
+    //console.log(userDetails.address.area.areaName);
+
+/*let userDetails=[
+    {
+        name: "Bhavana",
+        city:"Mohammed Nagar"
+    },
+    {
+        name:"Dimple",
+        city:"Guntur"
+    }
+    
+];
+userDetails.map((user)=>{
+    console.log(user.name);*/
+
+let userDetails={
+    name:"Sam",
+    age:25,
+    city:"Hyd"
+};
+console.log(userDetails);
+
+let x=JSON.stringify(userDetails);
+console.log("JSON Object "+x);
+
+let y=JSON.parse(x);
+console.log(y);

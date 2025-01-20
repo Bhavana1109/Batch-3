@@ -283,3 +283,24 @@ ex:- {
 }
 
 extension for json file is ".json"
+
+Arrays:-
+********
+- It is non-primitive data type
+- It is a collection of elements / multiple values
+
+map():- it is used to iterate values from the array.
+if we return the value, map() method returns new copied array.
+
+forEach():- it is used to 
+
+what is object?
+-Object is am entity which is having states(properties ) amd behaviours.
+- Object is used r=to store the data in the form key & value pairs.
+ syntax:- let obj={};
+
+ JSON :- javaScript object notation.
+
+ methids of json:-
+ 1.JSON.stringfy():-it is used to convert javascript object into json object.
+ 2.JSON.parse();- it is used to convert json object into javascript object.
