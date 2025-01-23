@@ -38,7 +38,7 @@ p3
 
 //jsonplaceholder.typicode.com/users;
 
-function fetchUsers()
+/*function fetchUsers()
 {
     let response=fetch("https://jsonplaceholder.typicode.com/users")
     //console.log(response);
@@ -62,5 +62,39 @@ function fetchUsers()
         })
     })
     .catch(err=>console.log(err))
+}
+fetchUsers();*/
+
+/*function demo(){
+    console.log("Start");
+    console.log(10);
+    console.log(20);
+    return;
+    console.log(30);
+    console.log(40);
+    console.log("End");
+
+}
+demo();*/
+
+let p=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve("Success");
+    },5000)
+})
+
+async function demo(){
+    console.log("Start");
+    let x= await p;
+    console.log(x);
+    console.log("End");
+};
+demo();
+
+async function fetchUsers()
+{
+    let response = await fetch("https://jsonplaceholder.typicode.com/users");
+    let data=await response.json();
+    console.log(data);
 }
 fetchUsers();

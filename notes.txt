@@ -352,4 +352,24 @@ syntax :-  let p =  new Promise((resolve , reject)=>{});
         3.finally() :- once promise is settled it will print the value.
 
 4.async & await
+*****************
+async:- async keyword is used to convert synchronous function into asynchronous function and start to executr the promise.
+
+await:- await keyword is used to make the function to wait untill the promise complete.
+
 note :- by default , javascript is synchronous(single threaded).
+
+DOM:-
+*****
+- DOM stands for document object model
+- DOM is used to add, remove, update to content in the html document
+- DOM is used to manipulate the content in the html document.
+
+DOM methods:-
+*****************
+1.document.getElementById("");
+2.document.getElementyClassName("");
+3.document.getElementByTagName("");
+4.document.getElementByName("");
+5.document.querySelector("");
+6.document.querySelectorAll("");
