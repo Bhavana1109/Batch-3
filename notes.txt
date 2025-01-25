@@ -383,3 +383,9 @@ DOM methods:-
 
 innerText :- it is a property used to manipulate / add just plain text.
 innerHTML :- it is a property used to add /remove the content along with tags.
+
+
+dynamic creation 
+
+- to create dynamic element in javascript we have a method called as "document.createElement
+- to create an attribute we have a method called as "setAttribute()"
