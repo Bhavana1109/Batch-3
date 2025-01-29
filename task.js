@@ -54,9 +54,9 @@ let empDetails = [
     }
 
 ];
-console.log(empDetails);
-let x = JSON.stringify(empDetails);
-console.log("JSON object "+x);
+//console.log(empDetails);
+//let x = JSON.stringify(empDetails);
+//console.log("JSON object "+x);
 
 function generateTable() {
     const tbody = document.querySelector("#employeeTable tbody");
