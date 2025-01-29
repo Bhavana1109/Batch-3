@@ -1,5 +1,5 @@
-//Task: Take a array of employee objects, where each object contains properties such as empid, empname, empcompany, empsalary and empaddress
-//where empaddress is further having two more properties of object such as empcity and emparea.
+//Task: Take a array of employee objects, where each object contains properties such as empid, empname, empcompany, 
+//empsalary and empaddress where empaddress is further having two more properties of object such as empcity and emparea.
 //print these properties in the form of a table on the UI by using javascript.
 let empDetails = [
     {
