@@ -194,7 +194,7 @@ Types of functions:-
 1.named function :- function which is having a name and invoked with the same name.
 2.anonymus function :-function which doesnot have  a name to declare and to invoke.
 3.function expression:- anonymus function decalration is assigned to a variable 
-    and invoked with the same variable.
+        and invoked with the same variable.
 4.Immediate invoke function expression(IIFE):-
     - once the function is created immediatley it should be invoked.
     - it can be executed only once.
@@ -401,3 +401,13 @@ dynamic creation of html element from javascript:-
 - to create dynamic element in javascript we have a method called as "document.createElement()".
 - to create an attributes we have a method called as "setAtttribute()".
 - to remove attribute we have "removeAttribute()".
+- any element which is created in javascript will not add directly to document, we have to add it 
+manually by using a method called "appendChild()".
+
+Note:- To prevent a page reload(refresh) in JavaScript, you can use the event.preventDefault() method. 
+This method allows you to stop the default behavior of an event, such as a form submission or 
+a link click, which would normally trigger a page reload
+
+Task: Take a array of employee objects, where each object contains properties such as empid, empname, empcompany, empsalary and empaddress
+where empaddress is further having two more properties of object such as empcity and emparea.
+print these properties in the form of a table on the UI by using javascript.
