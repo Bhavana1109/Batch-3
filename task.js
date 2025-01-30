@@ -75,3 +75,4 @@ function generateTable() {
     });
 }
 document.addEventListener("DOMContentLoaded", generateTable);
+
