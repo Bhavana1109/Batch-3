@@ -408,6 +408,12 @@ Note:- To prevent a page reload(refresh) in JavaScript, you can use the event.pr
 This method allows you to stop the default behavior of an event, such as a form submission or 
 a link click, which would normally trigger a page reload
 
-Task: Take a array of employee objects, where each object contains properties such as empid, empname, empcompany, empsalary and empaddress
-where empaddress is further having two more properties of object such as empcity and emparea.
-print these properties in the form of a table on the UI by using javascript.
+Modules :
+*********
+->Modules are like import/export code to another js files
+
+Named Modules : Definenly while importing should use the same name that you are defining exactly with in {} 
+You can export as many modules of code that you want.
+
+Default Modules:  While importing can use any name that you want. You can export only one modules of code 
+in one source file. You should use the default keyword while exporting.
